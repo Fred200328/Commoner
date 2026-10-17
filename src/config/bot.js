@@ -24,7 +24,7 @@ export const botConfig = {
     activities: [
       {
         name: "Custom Status", // required by Discord API, not shown in the client
-        state: "Love my cretor Fred 💕",     // this is what people actually see
+        state: "Love my creator Fred 💕",     // this is what people actually see
         type: 4,               // Custom
       },
     ],
@@ -378,7 +378,7 @@ export const botConfig = {
     defaultGoodbyeMessage:
       "{user} has left the server. We now have {memberCount} members.",
     // Channel ID for welcome messages.
-    defaultWelcomeChannel: null,
+    defaultWelcomeChannel: 1560956204539453550,
     // Channel ID for goodbye messages.
     defaultGoodbyeChannel: null,
   },
