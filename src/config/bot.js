@@ -169,21 +169,21 @@ export const botConfig = {
     },
 
     // Starting balance for new users.
-    startingBalance: 0,
+    startingBalance: 500,
 
     // Maximum bank amount before upgrades (if upgrades are used).
     baseBankCapacity: 100000,
 
     // Daily reward amount.
-    dailyAmount: 100,
+    dailyAmount: 200,
 
     // Work command random payout range.
-    workMin: 20,
-    workMax: 100,
+    workMin: 50,
+    workMax: 300,
 
     // Beg command random payout range.
-    begMin: 5,
-    begMax: 50,
+    begMin: 10,
+    begMax: 70,
 
     // Command cooldowns (milliseconds).
     cooldowns: {
