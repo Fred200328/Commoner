@@ -4,7 +4,7 @@ export const botConfig = {
   // =========================
   // BOT PRESENCE (what users see under the bot name)
   // =========================
-  // `status` options:
+  // `status` options:dnd
   // - "online"    = green dot
   // - "idle"      = yellow moon
   // - "dnd"       = red do-not-disturb
