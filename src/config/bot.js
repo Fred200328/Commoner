@@ -39,7 +39,7 @@ export const botConfig = {
     owners: process.env.OWNER_IDS?.split(",").map((id) => id.trim()).filter(Boolean) || [],
 
     // Default wait time between command uses (in seconds).
-    defaultCooldown: 2,
+    defaultCooldown: 3,
 
     // If true, old commands are removed before re-registering.
     deleteCommands: false,
@@ -141,7 +141,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "*enjoy the server*  ᡣ𐭩",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -178,7 +178,7 @@ export const botConfig = {
     dailyAmount: 100,
 
     // Work command random payout range.
-    workMin: 10,
+    workMin: 20,
     workMax: 100,
 
     // Beg command random payout range.
@@ -434,7 +434,7 @@ export const botConfig = {
   // GENERIC BOT MESSAGES
   // =========================
   messages: {
-    noPermission: "You do not have permission to use this command.",
+    noPermission: "You do not have permission to use this command ask my creator Fred",
     cooldownActive: "Please wait {time} before using this command again.",
     errorOccurred: "An error occurred while executing this command.",
     missingPermissions:
@@ -463,7 +463,7 @@ export const botConfig = {
 
     // Security and self-service systems.
     verification: true,
-    reactionRoles: true,
+    reactionRoles: false,
     joinToCreate: true,
 
     // Utility/quality-of-life modules.
